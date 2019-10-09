@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'safety';
+    src: url('fonts/safety-webfont.woff2') format('woff2'),
+        url('fonts/safety-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'safety_light';
+    src: url('fonts/safety-light-webfont.woff2') format('woff2'),
+        url('fonts/safety-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+    font-family: safety_light;
+    font-weight: normal;
+}
+
+
+/* farver til sections background:
+#414b59
+#28292c
+#eaeaea */
