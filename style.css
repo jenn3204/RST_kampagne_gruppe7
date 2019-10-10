@@ -21,8 +21,7 @@ h1 {
     font-weight: normal;
 }
 
-
-/* farver til sections background:
-#414b59
-#28292c
-#eaeaea */
+:root {
+    --header-og-footer: #414b59;
+    --section-farve: #28292c;
+    --tekst-farve: #eaeaea;
