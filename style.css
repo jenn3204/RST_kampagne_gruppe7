@@ -22,6 +22,9 @@ h1 {
 }
 
 :root {
-    --header-og-footer: #414b59;
-    --section-farve: #28292c;
-    --tekst-farve: #eaeaea;
+    --header-og-footer: #28292c;
+    --section-farve-1: #414b59;
+    --section-farve-2: #cccccc;
+    --tekst-farve-1: #eaeaea;
+    --tekst-farve-2: #373d46;
+}
