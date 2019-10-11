@@ -1,3 +1,11 @@
+:root {
+    --header-og-footer: #28292c;
+    --section-farve-1: #414b59;
+    --section-farve-2: #cccccc;
+    --tekst-farve-1: #eaeaea;
+    --tekst-farve-2: #373d46;
+}
+
 @font-face {
     font-family: 'safety';
     src: url('fonts/safety-webfont.woff2') format('woff2'),
@@ -32,6 +40,12 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-family: safety_light;
+    font-size: 28px;
+    font-weight: lighter;
+}
+
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -40,7 +54,9 @@ p {
 header {
     background-color: #28292c;
     height: 50px;
+    width: 100%;
     padding: 10px 10px 0 10px;
+    position: fixed;
 }
 
 #logo {
@@ -60,10 +76,10 @@ header {
     margin: 0 auto;
 }
 
-#splash h1 {
+#overskrift {
     color: white;
     text-align: right;
-    padding: 400px 20px 0 0;
+    padding: 70vw 20px 0 0;
 }
 
 #video {
@@ -78,7 +94,21 @@ header {
 
 #info_1 {
     background-color: #cccccc;
-    padding: 20px;
+    padding: 2vw 0;
+}
+
+#info_1 h1 {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 2vw 0;
+}
+
+#bodeberegner {
+    background-image: url(infografik/bodeberegner.png);
+    background-size: 100%;
+    width: 90vw;
+    height: 90vw;
+    margin: 0 auto;
 }
 
 .container {
@@ -97,6 +127,20 @@ header {
     width: 600px;
     flex-basis: 300px;
     flex-grow: 1;
+}
+
+#info_2 {
+    background-color: #e0e3e5;
+    padding: 2vw 0;
+
+}
+
+#guide {
+    background-image: url(infografik/guide.jpg);
+    background-size: 100%;
+    width: 90vw;
+    height: 120vw;
+    margin: 0 auto;
 }
 
 footer {
@@ -123,16 +167,11 @@ footer p {
         background-position: 0% 0%;
     }
 
-    #info_1,
     #video {
         padding: 20px 100px;
     }
-}
 
-:root {
-    --header-og-footer: #28292c;
-    --section-farve-1: #414b59;
-    --section-farve-2: #cccccc;
-    --tekst-farve-1: #eaeaea;
-    --tekst-farve-2: #373d46;
+    #overskrift {
+        padding: 25vw 20px 0 0;
+    }
 }
