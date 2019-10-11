@@ -1,3 +1,5 @@
+/* generelt */
+
 :root {
     --header-og-footer: #28292c;
     --section-farve-1: #414b59;
@@ -44,12 +46,15 @@ h2 {
     font-family: safety_light;
     font-size: 28px;
     font-weight: lighter;
+    margin: 0;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
+
+/* header/nav */
 
 header {
     background-color: #28292c;
@@ -67,6 +72,8 @@ header {
     margin: 0;
 }
 
+/* splash */
+
 #splash {
     background-image: url(img/lob.JPG);
     background-size: cover;
@@ -82,6 +89,8 @@ header {
     padding: 70vw 20px 0 0;
 }
 
+/* 1. section/ kampagnevideo */
+
 #video {
     background-color: #414b59;
     height: 400px;
@@ -92,15 +101,17 @@ header {
     color: #FFFFFF;
 }
 
+/* 2. section/ bødeberegner */
+
 #info_1 {
     background-color: #cccccc;
-    padding: 2vw 0;
+    padding: 5vw 0;
 }
 
 #info_1 h1 {
     width: 90vw;
     margin: 0 auto;
-    padding: 2vw 0;
+    padding: 0 0 2vw 0;
 }
 
 #bodeberegner {
@@ -111,25 +122,33 @@ header {
     margin: 0 auto;
 }
 
+/* 3. section/ hvor dør flest */
+
+#info_2 {
+    background-color: white;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
+    width: 90vw;
+    margin: 5vw auto;
 }
 
 #txt {
-    flex-basis: 300px;
+    flex-basis: 400px;
     flex-grow: 1;
     padding-right: 30px;
 }
 
 .pic {
-    height: 600px;
-    width: 600px;
-    flex-basis: 300px;
+    flex-basis: 400px;
     flex-grow: 1;
 }
 
-#info_2 {
+/* 4. section/ guide */
+
+#info_3 {
     background-color: #e0e3e5;
     padding: 2vw 0;
 
@@ -142,6 +161,16 @@ header {
     height: 120vw;
     margin: 0 auto;
 }
+
+/* 5. section/ konkurrence */
+
+#konkurrence {
+    background-color: #414b59;
+    padding: 2vw 0;
+    color: white;
+}
+
+/* footer */
 
 footer {
     background-color: #28292c;
@@ -159,6 +188,8 @@ footer p {
 #adresse {
     text-align: center;
 }
+
+/* mediaqueries */
 
 @media (orientation: landscape) {
     #splash {
