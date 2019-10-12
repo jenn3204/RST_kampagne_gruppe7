@@ -170,6 +170,14 @@ header {
     color: white;
 }
 
+#konkurrencebillede {
+    background-image: url(img/konkurrence.jpeg);
+    background-size: 100%;
+    width: 90vw;
+    height: 65vw;
+    margin: 0 auto;
+}
+
 /* footer */
 
 footer {
@@ -183,6 +191,29 @@ footer p {
     font-size: 14px;
     color: #9EA1A5;
     margin: 14px 0;
+}
+
+#socialemedier {
+    display: flex;
+}
+
+#facebook {
+    background-image: url(svg/facebook.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+#facebook:hover {
+    color: blue;
+}
+
+#twitter {
+    height: 50px;
+    width: 50px;
+    color: white;
 }
 
 #adresse {
