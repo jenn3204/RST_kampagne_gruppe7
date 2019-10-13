@@ -92,6 +92,7 @@ header {
     display: flex;
     flex-direction: column;
     padding: 2vw;
+    z-index: 100;
 }
 
 #menu a {
@@ -234,6 +235,8 @@ footer p {
 
 #socialemedier {
     display: flex;
+    cursor: pointer;
+    z-index: 50;
 }
 
 #facebook {
@@ -242,18 +245,30 @@ footer p {
     width: 50px;
     height: 50px;
     color: white;
-    cursor: pointer;
-}
-
-#facebook:hover {
-    color: blue;
+    filter: invert(100%);
 }
 
 #twitter {
     height: 50px;
     width: 50px;
-    color: white;
+    filter: invert(100%);
 }
+
+#linkedin {
+    background-image: url(svg/linkedin.svg);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    color: white;
+    filter: invert(100%);
+}
+
+#facebook:hover,
+#twitter:hover,
+#linkedin:hover {
+    filter: invert(50%);
+}
+
 
 #adresse {
     text-align: center;
@@ -276,6 +291,11 @@ footer p {
         padding: 25vw 20px 0 0;
     }
 
+    footer p,
+    #socialemedier {
+        width: 90vw;
+        margin: 0 auto;
+    }
 }
 
 @media (min-width: 900px) {
@@ -309,6 +329,18 @@ footer p {
 
     #logo {
         margin-left: 5vw;
+    }
+
+    #pil {
+        background-image: url(svg/arrowup.png);
+        background-size: 100%;
+        width: 70px;
+        height: 70px;
+        filter: invert(100%);
+        position: relative;
+        right: -90vw;
+        bottom: 50px;
+        cursor: pointer;
     }
 
 }
