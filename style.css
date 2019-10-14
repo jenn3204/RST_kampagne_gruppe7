@@ -274,6 +274,51 @@ footer p {
     text-align: center;
 }
 
+/* animation til pilen */
+
+#pil_container {
+    position: relative;
+    right: -90vw;
+    bottom: 40px;
+    cursor: pointer;
+}
+
+#pil {
+    background-image: url(svg/arrowblue.png);
+    background-size: 100%;
+    width: 60px;
+    height: 60px;
+
+}
+
+#pil_container p {
+    margin: 10px;
+    font-family: safety;
+}
+
+.hop {
+    animation-name: hop_kf;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes hop_kf {
+    0% {
+        bottom: 40px;
+    }
+
+    50% {
+        bottom: 50px;
+    }
+
+    100% {
+        bottom: 40px;
+    }
+}
+
+
 /* mediaqueries */
 
 @media (orientation: landscape) {
@@ -329,18 +374,6 @@ footer p {
 
     #logo {
         margin-left: 5vw;
-    }
-
-    #pil {
-        background-image: url(svg/arrowup.png);
-        background-size: 100%;
-        width: 70px;
-        height: 70px;
-        filter: invert(100%);
-        position: relative;
-        right: -90vw;
-        bottom: 50px;
-        cursor: pointer;
     }
 
 }
