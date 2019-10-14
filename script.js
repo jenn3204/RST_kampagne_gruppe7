@@ -13,6 +13,6 @@ function toggleMenu() { //denne funktionen får burgermenuen til at virke
     if (erSkjult == true) {
         document.querySelector("#menuknap").textContent = "☰";
     } else {
-        document.querySelector("#menuknap").textContent = "X";
+        document.querySelector("#menuknap").textContent = "×";
     }
 }

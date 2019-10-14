@@ -62,18 +62,22 @@ p {
 
 header {
     background-color: #28292c;
-    height: 53px;
+    height: 62px;
     width: 100%;
-    padding: 10px 10px 0 10px;
     position: fixed;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
 }
 
 #logo {
     background-image: url(svg/logo.svg);
     background-size: 100%;
-    height: 53px;
+    height: 50px;
     width: 180px;
-    margin: 0;
+    margin: 10px 0 0 10px;
 }
 
 #menuknap {
@@ -88,7 +92,7 @@ header {
 #menu {
     background-color: #28292c;
     width: 100vw;
-    height: 90vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     padding: 2vw;
@@ -101,6 +105,8 @@ header {
     font-family: safety;
     text-transform: uppercase;
     height: 53px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 #search {
@@ -276,27 +282,19 @@ footer p {
 
 /* animation til pilen */
 
-#pil_container {
-    position: relative;
-    right: -90vw;
-    bottom: 40px;
-    cursor: pointer;
-}
-
 #pil {
     background-image: url(svg/arrowblue.png);
     background-size: 100%;
     width: 60px;
     height: 60px;
-
+    position: relative;
+    right: -85vw;
+    bottom: 105px;
+    cursor: pointer;
+    filter: saturate(60%);
 }
 
-#pil_container p {
-    margin: 10px;
-    font-family: safety;
-}
-
-.hop {
+#pil:hover {
     animation-name: hop_kf;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -306,15 +304,15 @@ footer p {
 
 @keyframes hop_kf {
     0% {
-        bottom: 40px;
+        bottom: 105px;
     }
 
     50% {
-        bottom: 50px;
+        bottom: 115px;
     }
 
     100% {
-        bottom: 40px;
+        bottom: 105px;
     }
 }
 
@@ -374,6 +372,10 @@ footer p {
 
     #logo {
         margin-left: 5vw;
+    }
+
+    #pil {
+        right: -92vw;
     }
 
 }
