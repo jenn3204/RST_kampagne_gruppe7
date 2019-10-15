@@ -369,6 +369,18 @@ footer p {
 
 /* mediaqueries */
 
+@media (max-width: 350px) {
+
+    #overskrift h2 {
+        font-size: 1.2rem;
+    }
+
+    #pil {
+        right: 10vw;
+    }
+}
+
+
 @media (orientation: landscape) {
     #splash {
         width: 100vw;
