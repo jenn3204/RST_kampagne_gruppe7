@@ -396,8 +396,8 @@ footer p {
         padding: 30vw 20px 0 0;
     }
 
-    #info_22 #txt,
-    #konkurrence #txt {
+    #info_22 .txt,
+    #konkurrence .txt {
         padding-left: 30px;
     }
 
