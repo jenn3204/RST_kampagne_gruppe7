@@ -173,6 +173,7 @@ nav {
 #bodeberegner {
     background-image: url(infografik/bodeberegner.png);
     background-size: 100%;
+    background-repeat: no-repeat;
     width: 90vw;
     height: 90vw;
     margin: 0 auto;
@@ -221,7 +222,7 @@ nav {
 
 #guide {
     background-image: url(infografik/guide-100.jpg);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     width: 90vw;
     height: 120vw;
@@ -355,6 +356,7 @@ footer p {
 
 #video_portfolio h1 {
     margin: 0 0 2vw 0;
+    padding: 3vw;
 }
 
 #video_container {
@@ -468,5 +470,9 @@ footer p {
 
     #overskrift {
         padding: 33vw 20px 0 0;
+    }
+
+    #guide {
+        max-height: 1600px;
     }
 }
