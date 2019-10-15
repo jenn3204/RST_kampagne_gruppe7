@@ -126,7 +126,7 @@ nav {
 /* splash */
 
 #splash {
-    background-image: url(img/hurtigbil.jpg);
+    background-image: url(img/splash.jpg);
     background-size: cover;
     width: 100vw;
     height: 108vw;
@@ -376,7 +376,7 @@ footer p {
     }
 
     #pil {
-        right: 10vw;
+        display: none;
     }
 }
 
