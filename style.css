@@ -221,7 +221,8 @@ nav {
 
 #guide {
     background-image: url(infografik/guide-100.jpg);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 90vw;
     height: 120vw;
     margin: 0 auto;
@@ -363,7 +364,7 @@ footer p {
 .video {
     width: 90vw;
     height: 51vw;
-    margin: 0 auto;
+    margin: auto;
     border: none;
     max-width: 1200px;
 }
