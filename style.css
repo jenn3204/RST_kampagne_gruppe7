@@ -142,13 +142,6 @@ nav {
 
 /* 1. section/ kampagnevideo */
 
-#video {
-    background-color: #414b59;
-    padding: 15vw 5vw;
-}
-
-
-
 #video h1 {
     color: #FFFFFF;
 }
@@ -203,7 +196,7 @@ nav {
     margin: 0 auto;
 }
 
-#txt {
+.txt {
     flex-basis: 400px;
     flex-grow: 1;
     padding-right: 30px;
@@ -364,6 +357,7 @@ footer p {
     width: 90vw;
     height: 51vw;
     margin: 0 auto;
+    border: none;
 }
 
 
